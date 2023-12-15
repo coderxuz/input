@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image:url('../img/Без\ названия.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+h1{
+    padding-bottom: 50px;
+}
+.forms{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+label{
+    color: white;
+}
+form{
+    padding: 10px 50px;
+}
+input{
+    padding: 10px 30px;
+    opacity: 0.8;
+}
+select{
+    padding: 10px 93px;
+    opacity: 0.8;
+}
+input[type="time"]{
+    padding: 10px 82px;
+}
+input[type="submit"]{
+    padding: 10px 40px;
+    margin-top: 50px;
+    color: rgb(238, 255, 0);
+    background-color: black;
+}
+.make{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    opacity: 0.7;
+}
+.make h2{
+    margin: 50px 0;
+}
